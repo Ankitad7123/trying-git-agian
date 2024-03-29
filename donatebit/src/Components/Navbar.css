@@ -1,0 +1,80 @@
+.nav{
+    box-shadow: 5px 5px 10px rgb(15, 14, 14);
+    width: 100vw;
+    height: 55px;
+    /* background-color: rgb(252, 249, 249); */
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    color:rgb(10, 9, 9);
+    
+   
+   
+ 
+ 
+
+
+   
+}
+
+.nav1{
+    flex: 0.40;
+    /* background-color: rgb(252, 252, 252); */
+    display: flex;
+    background-color:none;
+   
+  
+  
+}
+
+
+  
+.nav2{
+   
+    flex: 0.55;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: white; */
+    background-color:none;
+  
+
+}
+
+
+.logotext{
+    /* height: 100%;
+    width: 24%;
+    transform: scale(1.2); */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-left: 60px;
+    /* background-color: white; */
+    background-color:none;
+    color: green;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(8, 0, 0);
+    margin-left: 80px;
+    /* background-color: white; */
+}
+li{
+    list-style-type : none;
+    /* background-color: white; */
+    background-color:none;
+
+}
+a:hover{
+    color: rgb(103, 202, 144);
+    font-weight: bold;
+    font-size: larger;
+}
+

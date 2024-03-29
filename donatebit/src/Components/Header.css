@@ -1,0 +1,74 @@
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+  
+
+.header2 {
+
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 90vw;
+    border-radius: 30px;
+    /* background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/cff8f1137100485.62050f71187db.gif"); */
+    
+    /* box-shadow: 5px 5px 15px grey; */
+    
+}
+  
+.imgheader {
+    max-width: 55%;
+    max-height: 70%;
+    mix-blend-mode: darken;
+
+}
+
+.headerC{
+    height: 100%;
+    width: 100%;
+   
+    
+}
+.headerMap{
+ 
+
+
+width: 95vw;
+height: 85vh;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+color: rgb(85, 12, 175);
+
+
+}
+.header3{
+    width: 100vw;
+    background-image: url('https://blog.happyfox.com/wp-content/uploads/2019/09/Best-canned-response-templates-to-use-in-your-customer-support-emails-01.png');
+    background-size: 70vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    height:  60vh;
+    display: flex;
+    background-color: rgb(46, 159, 148);
+    flex-direction: row;
+    .btnheader{
+        margin-top: 297px;
+        margin-left: 120px;
+        width: 60px;
+        height: 30px;
+        border-radius: 4px;
+        background-color: rgb(46, 159, 148);
+        font-family: monospace;
+        cursor: pointer;
+    }
+}
