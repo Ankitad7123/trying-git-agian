@@ -5,7 +5,7 @@ function Category() {
   return (
     <div>
     <div className='grid2'>
-    <h1>Categories</h1>
+    <h1 id='category'>Categories</h1>
   </div>
 <div className="grid-container">
   
@@ -16,12 +16,11 @@ function Category() {
   <div className="grid-item" id="item4"></div>
   <div className="grid-item" id="item5"></div>
   <div className="grid-item" id="item6"></div>
- 
 </div>
 <footer className="footer">
       <div className="footer-container">
         <div className="footer-category">
-          <h3>Categories</h3>
+          <h3 >Categories</h3>
           <ul>
             <li><a href="#">Food</a></li>
             <li><a href="#">Clothes</a></li>

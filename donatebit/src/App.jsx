@@ -1,15 +1,16 @@
-
-import './App.css';
-import Category from './Components/Category';
-import Header from './Components/Header';
-import Navbar from './Components/Navbar';
+import {BrowserRouter as Router , Routes , Route} from 'react-router-dom'
+import Home from './Pages/Home';
+import Fundraiser from './Pages/Fundraiser';
 
 function App() {
   return (
     <div className="App">
-        <Navbar/>
-        <Header/>
-        <Category/>
+        <Router>
+          <Routes>
+            <Route path='/' element={<Home/>}/>
+            <Route path="/fund" element={<Fundraiser/>}/>
+          </Routes>
+        </Router>
     </div>
   );
 }

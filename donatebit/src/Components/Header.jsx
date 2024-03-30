@@ -21,12 +21,12 @@ function Header() {
           {items.map(item => (
             <div  className="headerMap" style={{ textAlign: "center" }} key={item.id}>
               <h1>{item.title}</h1>
-              <img  className="imgheader" style={{ width: "100%", height: "300px" }} src={item.img} alt={item.title} />
+              <img  className="imgheader" style={{ width: "160%", height: "500px" }} src={item.img} alt={item.title} />
             </div>
           ))}
         </Carousel>
       </div>
-      <h3>Have a question? Send us an email!</h3>
+      <h3 id='email'>Have a question? Send us an email!</h3>
       <div className='header3'>
     
         
